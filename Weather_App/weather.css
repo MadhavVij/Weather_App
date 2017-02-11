@@ -1,0 +1,52 @@
+/*
+Student Name: Vij Madhav  
+Student ID: 1001440170
+Project Name:   Project1- A Weather Web Application
+Due Date:   10/19/2016
+Last Edited: 10/16/2016
+*/
+body {
+    background-image: url(image/tree.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50% ;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 50px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #9FA8DA}
+
+th {
+    background-color: #3F51B5;
+    color: white;
+}
+input[type=text] {
+width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(image/search.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+input[type=button]{
+    background-color: #1A237E;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

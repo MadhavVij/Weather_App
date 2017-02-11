@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- 
+Student Name: Vij Madhav  
+Student ID: 1001440170
+Project Name:   Project1- A Weather Web Application
+Due Date:   10/19/2016
+Last Edited: 10/16/2016 -->
+<html lang="en">
+  <head>
+    <title>A Weather Web Application</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="weather.js"></script>
+    <link rel="stylesheet" type="text/css" href="weather.css">
+  </head>
+  <body>
+  <div class="background"></div>
+  <!-- 
+  onload="initialize();" -->
+    <form>
+    <table>
+    <tr>
+       <td><input type="text" id="form-input"/ placeholder="City"></td>
+       <td><input type="button" onclick="sendRequest();" value="Display Info"/></td>
+       </tr>
+       </table>
+    </form>
+
+    <table>
+      <tr>
+        <th>Weather in </th>
+        <th><div id="city"></div></th>
+        <th colspan="2"><div id="desc"></div></th>
+      </tr>
+      <tr>
+        <td>Longitude: </td>
+        <td><div id="geoLon"></div></td>
+        <td>Latitude: </td>
+        <td><div id="geoLat"></div></td>
+      </tr>
+  
+      <tr>
+        <td>Sunrise: </td>
+        <td><div id="sunrise"></div></td>
+        <td>Sunset: </td>
+        <td><div id="sunset"></div></td>
+      </tr>
+
+      <tr>
+        <td>Pressure: </td>
+        <td><div id="pressure"></div></td>
+        <td>Humidity: </td>
+        <td><div id="humidity"></div></td>
+      </tr>
+
+      <tr>
+        <td>Tempurature: </td>
+        <td><div id="temperature"></div></td>
+      </tr>
+      <tr>
+        <td>Minimum: </td>
+        <td><div id="min_temp"></div></td>
+        <td> Maximum: </td>
+        <td><div id="max_temp"></div></td>
+      </tr>
+      <tr>
+        <td>Visibility: </td>
+        <td><div id="visible"></div></td>
+        <td>Cloudiness: </td>
+        <td><div id="cloud"></div></td>
+      </tr>
+      <tr>
+        <td><div>Please Note: </div></td>
+        <td colspan="3"><div id="info"></div></td>
+      </tr>
+
+    </table>
+    
+  </body>
+</html>
