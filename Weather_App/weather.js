@@ -1,10 +1,7 @@
-var api_key = "dd353ef18afc8f1555206d1c8a03dc9f";
+var api_key = <YOUR_KEY>;
 /*
 Student Name: Vij Madhav  
-Student ID: 1001440170
-Project Name:   Project1- A Weather Web Application
-Due Date:   10/19/2016
-Last Edited: 10/16/2016
+Project Name: A Weather Web Application
 */
 function sendRequest () {
     var xhr = new XMLHttpRequest();
